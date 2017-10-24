@@ -7,11 +7,15 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coffeemaker.CoffeeMakerController">
    <children>
-      <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="-2.0" layoutY="-1.0">
-         <image>
-            <Image url="@../../Billeder/Kaffemaskinen.jpeg" />
-         </image>
-      </ImageView>
+      <AnchorPane layoutX="-2.0" layoutY="-1.0">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="600.0">
+               <image>
+                  <Image url="@../../Billeder/Kaffemaskinen.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
       <Button fx:id="btnBlackCoffee" layoutX="211.0" layoutY="56.0" mnemonicParsing="false" text="Black coffee" />
       <Button fx:id="btnCoffeeWithMilk" layoutX="309.0" layoutY="55.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" text="Coffee with milk" />
    </children>

@@ -23,6 +23,11 @@ public class CoffeeMakerController implements Initializable
     private Button btnBlackCoffee;
     @FXML
     private Button btnCoffeeWithMilk;
+    
+    public void getBlackCoffee()
+    {
+        
+    }
 
     /**
      * Initializes the controller class.
